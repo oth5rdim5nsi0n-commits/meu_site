@@ -1,1 +1,31 @@
+body{
+  background-color: black;
+  background: linear-gradient(50deg, black, maroon);
+  margin: 0;
+  height: 100vh;
+}
+img{
+  border: solid 4px black;
+  border-radius: 35px;
+}
+h2{
+color: white;
+font-family: fantasy;
+}
+.centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+p{
+  color: white;
+  font-size: ;
+}
+a{ color: white;
+  font-family: fantasy;
+  font-style: italic;
+}
+strong {
+  color: ;
+}
