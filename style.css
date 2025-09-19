@@ -1,1 +1,51 @@
 
+body {
+  background: radial-gradient(circle, maroon, black);
+  }
+  
+h2 {
+  color: white;
+  font-style: italic;
+  font-family: fantasy;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+  border: solid darkred;
+  border-radius: 30px;
+  transition: trasnform 0.3s ease
+  box-shadow 0.3s ease;
+}
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+p {
+  color: white;
+  font-size: 15px;
+}
+.minha-imagem {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+.minha-imagem img {
+  width: 290px;
+  border-radius: 25px;
+  transition: trasnform 0.3s ease-out, box-shadow 0.4s ease;
+}
+.minha-imagem: houver img,
+.minha-imagem: focus img,
+.minha-imagem: active img {
+  trasnform: scale(1.04);
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.4);
+}
